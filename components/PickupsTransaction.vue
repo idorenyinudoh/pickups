@@ -41,7 +41,7 @@ defineProps({
       </div>
     </div>
     <hr class="h-[1px] w-full bg-gray-300" />
-    <div class="pt-5 pb-16">
+    <div class="py-5">
       <UButton class="p-4 px-16 block mx-auto bg-[#0D3455] text-white text-xl font-normal" label="Send Payment" variant="solid" />
     </div>
   </div>
