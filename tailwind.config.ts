@@ -18,7 +18,8 @@ export default {
           950: '#061A31',
         },
         secondary: '#030303',
-        grey: '#E4E5E7'
+        grey: '#E4E5E7',
+        lightpink: '#FF005B'
       }
     },
   },
