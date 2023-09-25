@@ -1,18 +1,12 @@
 <script setup lang="ts">
-const devices = reactive([
-  {
-    image: 'iphone13-pro-max.jpeg',
-    name: 'iPhone 13 Pro Max',
-    desc: '128GB - Unlocked - Flawless',
-    offer: 750
+import Device from '@/utils/types'
+
+defineProps({
+  devices: {
+    type: Array as PropType<Device[]>,
+    required: true
   },
-  {
-    image: 'iphone13.webp',
-    name: 'iPhone 13',
-    desc: '128GB - Unlocked - Good',
-    offer: 550
-  }
-])
+})
 </script>
 
 <template>
