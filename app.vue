@@ -48,4 +48,5 @@ const devices = reactive<Device[]>([
       </UButton>
     </nav>
   </main>
+  <UNotifications />
 </template>
